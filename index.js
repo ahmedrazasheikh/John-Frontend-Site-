@@ -91,7 +91,7 @@ const getData = async ()=>{
 }
 getData()
 })
-https://dull-gold-leopard-sari.cyclic.app
+// https://dull-gold-leopard-sari.cyclic.app
 
 const __dirname = path.resolve();
 app.use('/', express.static(path.join(__dirname, './Frontend/build')))

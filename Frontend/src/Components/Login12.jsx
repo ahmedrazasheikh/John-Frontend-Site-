@@ -9,7 +9,7 @@ const LogInPage = () => {
 	const navigate = useNavigate();
 	const[email,setEmail] = useState()
 	const[password,setPassword] = useState()
-	let  baseUrl = "https://dull-gold-leopard-sari.cyclic.app/api/v1"
+	let  baseUrl = "http://localhost:8000/api/v1"
 	
 	const logindata =  async ()=>{
 		try {

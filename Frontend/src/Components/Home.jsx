@@ -35,7 +35,7 @@ import Carousel from "react-elastic-carousel";
 
 
 const Home = () => {
-  let baseUrl = "https://dull-gold-leopard-sari.cyclic.app/api";
+  let baseUrl = "http://localhost:8000/api";
 
 
 

@@ -6,7 +6,7 @@ import axios from 'axios';
 import { useEffect } from 'react';
 
 const DashbordOrderAdmin = () => {
-  let  baseUrl = "https://dull-gold-leopard-sari.cyclic.app/api/v1"
+  let  baseUrl = "http://localhost:8000/api/v1"
 
   const [name, setName ] = useState("Ahmed")
 

@@ -39,9 +39,9 @@ function App() {
       {/* <SignupForm/> */}
       {/* <SignupForm2/>       */}
        {/* <Third/> */}
-      {/* <AddtoCard/> */}
+      <AddtoCard/>
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path={"/"} element={<Home />} />
           <Route path={"/Login"} element={<Login />} />
@@ -61,7 +61,7 @@ function App() {
           <Route path={"/MembershipVip"} element={<MembershipVip />} />
           <Route path={"/OrderVipMember"} element={<OrderVipMember />} />
         </Routes>
-      </BrowserRouter>,
+      </BrowserRouter>, */}
     </div>
   );
 }

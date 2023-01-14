@@ -14,7 +14,7 @@ import jwt from 'jsonwebtoken';
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: ['http://localhost:3000'  ,'http://localhost:3001' , "*"],
+    origin: ['https://dull-gold-leopard-sari.cyclic.app'   , "*"],
     credentials: true
 }));
 app.use(express.json());
@@ -91,6 +91,7 @@ const getData = async ()=>{
 }
 getData()
 })
+https://dull-gold-leopard-sari.cyclic.app
 
 const __dirname = path.resolve();
 app.use('/', express.static(path.join(__dirname, './Frontend/build')))
